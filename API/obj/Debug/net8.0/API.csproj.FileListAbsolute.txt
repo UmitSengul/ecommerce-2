@@ -151,3 +151,4 @@ E:\ecommerce\API\obj\Debug\net8.0\refint\API.dll
 E:\ecommerce\API\obj\Debug\net8.0\API.pdb
 E:\ecommerce\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 E:\ecommerce\API\obj\Debug\net8.0\ref\API.dll
+E:\ecommerce\api\obj\Debug\net8.0\API.sourcelink.json
