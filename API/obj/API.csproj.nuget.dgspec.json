@@ -66,9 +66,13 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Npgsql": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.0-rc.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0-rc.2, )"
             },
             "Stripe.net": {
               "target": "Package",

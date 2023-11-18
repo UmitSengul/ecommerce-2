@@ -9,8 +9,6 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
       - "80:80"
-    depends_on:
-      - api
 
 
 # frontend olarak nginx çalışır. dışardaki 80 portuna gelen istekleri alır. daha sonra nginx config dosyasındaki gibi apinin 80 portuna yollar
@@ -36,14 +34,14 @@ services:
 # api kendi 80 portunu aynı  compose dosyası içindeki programlara açar
 
   postgres:
-    image: postgres
+    image: postgres:16
     restart: always
     environment:
       POSTGRES_USER: appuser
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: store
-    expose:
-      - "5432"
+    ports:
+      - "5432:5432"
     volumes:
       - ./data:/var/lib/postgresql/data
 

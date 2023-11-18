@@ -46,8 +46,8 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddDbContext<StoreContext>(opt =>
 {
-    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-    // opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    //opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+     opt.UseNpgsql(builder.Configuration.GetConnectionString("DockerConnection"));
 });
 builder.Services.AddCors();
 builder.Services.AddIdentityCore<User>(opt => 
@@ -88,8 +88,8 @@ app.UseMiddleware<ExceptionMiddleware>();
     });
 }
 
-// app.UseDefaultFiles();
-// app.UseStaticFiles();
+ app.UseDefaultFiles();
+ app.UseStaticFiles();
 
 app.UseCors(opt => 
 {
