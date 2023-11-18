@@ -1,0 +1,50 @@
+version: '3.8'
+
+
+services:
+  
+  frontend:
+    image: nginx:alpine
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+    depends_on:
+      - api
+
+
+# frontend olarak nginx çalışır. dışardaki 80 portuna gelen istekleri alır. daha sonra nginx config dosyasındaki gibi apinin 80 portuna yollar
+
+  api:
+    image: ${DOCKER_REGISTRY-}api
+    build:
+      context: .
+      dockerfile: API/Dockerfile
+    expose:
+     - "80"
+    ports:
+      - "5000:5000"
+
+    depends_on:
+      - postgres
+    
+    environment:
+      - CLOUD_NAME=dbncip1cd
+      - API_KEY=718635514422192
+      - API_SECRET=2B2Hx5ZQQ8uGtzq5lo5TKEhzE0M
+
+# api kendi 80 portunu aynı  compose dosyası içindeki programlara açar
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: store
+    expose:
+      - "5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+
+# postgres kendi 5432 portunu aynı compose dosyası içindekilere açar

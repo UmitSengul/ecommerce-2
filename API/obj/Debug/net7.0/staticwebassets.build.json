@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "RT880cyJG3K0o0A1Fr5etR1Eolb6ZCVu7h/vuDk/W5U=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "E:\\ecommerce\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-52ef902a.js",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ecommerce\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "assets/index-52ef902a.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\index-52ef902a.js"
+    }
+  ]
+}
