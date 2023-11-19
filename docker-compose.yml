@@ -25,9 +25,9 @@ services:
       - postgres
     
     environment:
-      - CLOUD_NAME=dbncip1cd
-      - API_KEY=718635514422192
-      - API_SECRET=2B2Hx5ZQQ8uGtzq5lo5TKEhzE0M
+      - CLOUD_NAME=""
+      - API_KEY=""
+      - API_SECRET=""
 
 # api kendi 80 portunu aynı  compose dosyası içindeki programlara açar
 
