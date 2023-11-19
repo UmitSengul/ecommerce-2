@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "38j8zSzzHYzStaq4EaB6Ri3a0TR6q82oaU1x2fwPp08=",
+  "Hash": "KoZhXNDPmG1PKO4hj7tr1ZbPyUQog/fg+6lIJLfNFY0=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -36,25 +36,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\ajax-loader-e7b44c86.gif"
     },
     {
-      "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-1eec7c12.js",
-      "SourceId": "API",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\ecommerce\\api\\wwwroot\\",
-      "BasePath": "_content/API",
-      "RelativePath": "assets/index-1eec7c12.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-1eec7c12.js"
-    },
-    {
       "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-4d7b094e.css",
       "SourceId": "API",
       "SourceType": "Discovered",
@@ -74,12 +55,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\index-4d7b094e.css"
     },
     {
-      "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-52ef902a.js",
+      "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-62f11f0e.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\ecommerce\\api\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "assets/index-52ef902a.js",
+      "RelativePath": "assets/index-62f11f0e.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,26 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-52ef902a.js"
-    },
-    {
-      "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\index-eb408882.js",
-      "SourceId": "API",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\ecommerce\\api\\wwwroot\\",
-      "BasePath": "_content/API",
-      "RelativePath": "assets/index-eb408882.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-eb408882.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-62f11f0e.js"
     },
     {
       "Identity": "E:\\ecommerce\\api\\wwwroot\\assets\\roboto-cyrillic-300-normal-47aa3bfa.woff2",
